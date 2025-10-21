@@ -1,0 +1,23 @@
+# Image Placeholders for P01: Lost in a Neon City
+
+This directory contains placeholder references for the following images:
+
+## Required Images:
+- neon-city.jpg - Main cityscape image
+- market.jpg - Market district scene  
+- library.jpg - Ancient library interior
+- rooftop.jpg - City view from rooftops
+- subway.jpg - Underground station
+- arcade.jpg - Secret arcade interior
+- alley.jpg - Dark alley scene
+- merchant.jpg - Mysterious merchant
+- tunnel.jpg - Underground tunnel
+- bridge.jpg - Neon bridge
+- victory.jpg - Victory celebration
+- game-over.jpg - Game over scene
+- city-map.jpg - Complete city map
+
+## Instructions:
+Replace these placeholder references with actual image files.
+All images should be in JPG format and optimized for web use.
+Ensure all images have appropriate alt text as specified in the HTML files.

@@ -1,0 +1,25 @@
+# Media Placeholders for P01: Lost in a Neon City
+
+This directory contains placeholder references for the following media files:
+
+## Required Media Files:
+- background.mp3 - Background music (replace with CC0 audio)
+- short.mp4 - Short video clip (placeholder)
+
+## Instructions:
+1. Replace background.mp3 with a local CC0 audio file
+2. Replace short.mp4 with a local video file
+3. Ensure all media files are optimized for web use
+4. Test audio controls and video playback in browsers
+
+## Audio Requirements:
+- Format: MP3
+- License: CC0 or Creative Commons
+- Duration: 2-5 minutes recommended
+- Quality: 128kbps or higher
+
+## Video Requirements:
+- Format: MP4
+- Duration: 30-60 seconds recommended
+- Quality: 720p or higher
+- Codec: H.264
