@@ -1,7 +1,7 @@
 # Lost in a Neon City - Choose Your Own Adventure
 
 **Created by:** Kanishk Chauhan  
-**Date:** January 2025  
+**Date:** October 2025  
 **Project:** P01_kanishk_chauhan
 
 A cyberpunk-themed interactive choose-your-own-adventure game built with HTML and CSS. Navigate through a mysterious neon city filled with hidden secrets and multiple story paths.
