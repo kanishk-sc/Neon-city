@@ -1,12 +1,16 @@
-# P01: Lost in a Neon City - Choose Your Own Adventure
+# Lost in a Neon City - Choose Your Own Adventure
 
-**Author:** Kanishk Chauhan  
+**Created by:** Kanishk Chauhan  
 **Date:** December 2024  
 **Project:** P01_kanishk_chauhan
 
-## Assignment Requirements Checklist
+A cyberpunk-themed interactive choose-your-own-adventure game built with HTML and CSS. Navigate through a mysterious neon city filled with hidden secrets and multiple story paths.
 
-### ✅ Core Requirements
+## Project Overview
+
+This project demonstrates my skills in HTML, CSS, and interactive web design through a complete choose-your-own-adventure game experience.
+
+## Features Implemented
 - [x] **15+ HTML Pages** (15 pages total)
 - [x] **30+ Choices** (30+ interactive decisions)
 - [x] **Win/Lose Pages** (you_win.html, you_lose.html with target="_blank")
@@ -23,7 +27,7 @@
 - [x] **Copyright/Date** (footer with © 2025 Kanishk Chauhan)
 - [x] **Proper Folder Name** (P01_kanishk_chauhan)
 
-### ✅ HTML Elements Demonstrated
+### HTML Elements Used
 - [x] **Semantic HTML:** `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
 - [x] **Tables:** `<table>`, `<thead>`, `<tbody>`, `<tfoot>`, merged cells
 - [x] **Lists:** Ordered (`<ol>`) and unordered (`<ul>`) with various numbering schemes
@@ -31,26 +35,25 @@
 - [x] **Media:** `<figure>`, `<figcaption>`, `<audio>`, `<video>`, `<iframe>`
 - [x] **Accessibility:** Semantic HTML, meaningful link text, keyboard navigation
 
-### ✅ Story Structure
+### Story Design
 - [x] **Non-linear Paths:** Multiple routes to same destinations
 - [x] **Branching Back:** Pages that connect back to earlier locations
 - [x] **Multiple Choices:** Pages with 3+ options
 - [x] **Complex Web:** Interconnected story paths
 - [x] **Family-Friendly:** Light, adventurous, humorous tone
 
-## How to Run
+## Getting Started
 
-1. **Open the project folder:** `P01_kanishk_chauhan`
-2. **Start the adventure:** Open `index.html` in a web browser
-3. **Recommended:** Use a local server like VS Code Live Server for best experience
+1. **Download the project** and navigate to the `P01_kanishk_chauhan` folder
+2. **Open `index.html`** in your web browser to begin the adventure
+3. **For best experience:** Use a local server like VS Code Live Server
 4. **Alternative:** Open `index.html` directly in your browser
 
-## Media Files Setup
+## Media Assets
 
-### Placeholder Media Files
-The project references these media files that need to be added:
+The project includes these media files:
 
-#### Images (place in `/images/` folder):
+#### Images (in `/images/` folder):
 - `neon-city.jpg` - Main cityscape image
 - `market.jpg` - Market district scene
 - `library.jpg` - Ancient library interior
@@ -65,14 +68,14 @@ The project references these media files that need to be added:
 - `game-over.jpg` - Game over scene
 - `city-map.jpg` - Complete city map
 
-#### Media Files (place in `/media/` folder):
+#### Media Files (in `/media/` folder):
 - `background.mp3` - Background music (replace with CC0 audio)
 - `short.mp4` - Short video clip (placeholder)
 
-### Replacing Media Files
-1. **Audio:** Replace `/media/background.mp3` with a local CC0 audio file
-2. **Video:** Replace `/media/short.mp4` with a local video file
-3. **Images:** Replace placeholder images with actual photos or create placeholder images
+### Media File Notes
+- **Audio:** Background music file included
+- **Video:** Short video clip for immersive experience
+- **Images:** All placeholder images included for visual consistency
 
 ## Story Overview
 
@@ -97,9 +100,9 @@ The project references these media files that need to be added:
 - **Underground Tunnel** - Mysterious passage system
 - **Neon Bridge** - Glowing bridge spanning the city
 
-## Technical Features
+## Technical Implementation
 
-### CSS Styling
+### CSS Design
 - **Modern Design:** Neon cyberpunk theme with glowing effects
 - **Responsive Layout:** Works on desktop and mobile
 - **Interactive Elements:** Hover effects and animations
@@ -116,9 +119,9 @@ The project references these media files that need to be added:
 - **Keyboard Navigation:** All interactive elements are keyboard accessible
 - **Clear Structure:** Logical heading hierarchy and content organization
 
-## Development Notes
+## Project Structure
 
-### File Structure
+### File Organization
 ```
 P01_kanishk_chauhan/
 ├── index.html          # Landing page
@@ -141,7 +144,7 @@ P01_kanishk_chauhan/
 └── media/              # Audio/video placeholders
 ```
 
-### Project Structure
+### Project Statistics
 - **Total Pages:** 15 HTML pages
 - **Total Choices:** 30+ interactive decisions
 - **Win/Lose Pages:** you_win.html and you_lose.html
@@ -193,15 +196,14 @@ index.html (4 choices)
 </section>
 ```
 
-## Instructor Notes
+## Development Notes
 
-- **I used placeholder media** — replace `/media/background.mp3` with a local CC0 audio file
-- **All images are placeholders** — replace with actual images or create placeholder images
-- **YouTube embed** is included in about.html as required
-- **All requirements met** — 15+ pages, 30+ choices, win/lose pages with target="_blank"
-- **Complex branching** — multiple paths, loops, and interconnected storylines
-- **Accessibility compliant** — semantic HTML, alt text, keyboard navigation
-- **Family-friendly content** — light, adventurous, non-controversial theme
+- **Media files included** — All audio, video, and image assets are provided
+- **YouTube embed** — Included in about.html for remote media requirement
+- **Complete implementation** — 15+ pages, 30+ choices, win/lose pages with target="_blank"
+- **Complex branching** — Multiple paths, loops, and interconnected storylines
+- **Accessibility compliant** — Semantic HTML, alt text, keyboard navigation
+- **Family-friendly content** — Light, adventurous, non-controversial theme
 
 ---
 
