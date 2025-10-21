@@ -106,8 +106,7 @@ The project references these media files that need to be added:
 - **Typography:** Clear, readable fonts with proper hierarchy
 - **Color Scheme:** Neon green (#00ff88) on dark backgrounds
 
-### JavaScript Features
-- **Verification Script:** `generate-list-of-pages.js` for development
+### Interactive Features
 - **Audio Controls:** Background music with play/pause
 - **Interactive Elements:** Hover effects and transitions
 
@@ -137,18 +136,16 @@ P01_kanishk_chauhan/
 ├── merchant.html       # Mysterious merchant
 ├── tunnel.html         # Underground tunnel
 ├── bridge.html         # Neon bridge
-├── generate-list-of-pages.js  # Verification script
 ├── README.md           # This file
 ├── images/             # Image placeholders
 └── media/              # Audio/video placeholders
 ```
 
-### Verification
-Run `generate-list-of-pages.js` in a JavaScript console to verify:
-- Total page count (15 pages)
-- Total choice count (30+ choices)
-- Page connections and structure
-- Win/lose page verification
+### Project Structure
+- **Total Pages:** 15 HTML pages
+- **Total Choices:** 30+ interactive decisions
+- **Win/Lose Pages:** you_win.html and you_lose.html
+- **Complex Branching:** Multiple interconnected story paths
 
 ## Sample Page Content
 
