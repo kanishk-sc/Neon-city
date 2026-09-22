@@ -3,11 +3,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lost in a Neon City - Choose Your Own Adventure</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
         <h1>Lost in a Neon City</h1>
         <nav>
@@ -17,11 +19,11 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main-content">
         <section>
             <h2>Welcome to the Neon City</h2>
             <figure>
-                <video width="400" controls autoplay muted loop>
+                <video width="400" controls preload="metadata">
                     <source src="media/short.mp4" type="video/mp4">
                     Your browser does not support the video element.
                 </video>
@@ -45,7 +47,7 @@
 
         <aside>
             <h3>Background Music</h3>
-            <audio controls autoplay loop>
+            <audio controls preload="metadata">
                 <source src="media/background.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
