@@ -143,9 +143,45 @@ a:hover {
     text-shadow: 0 0 5px #00ff88;
 }
 
+main a {
+    color: #006b4d;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+main a:hover {
+    color: #004d39;
+    text-shadow: none;
+}
+
+a:focus-visible,
+audio:focus-visible,
+video:focus-visible {
+    outline: 3px solid #111827;
+    outline-offset: 4px;
+}
+
+.skip-link {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    transform: translateY(-200%);
+    background: #ffffff;
+    color: #111827;
+    padding: 0.75rem 1rem;
+    border-radius: 0.35rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
 /* Table styling */
 table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     margin: 2rem 0;
     background: white;
@@ -163,6 +199,7 @@ th, td {
     padding: 1rem;
     text-align: left;
     border-bottom: 1px solid #e2e8f0;
+    overflow-wrap: anywhere;
 }
 
 tbody tr:hover {
@@ -207,6 +244,11 @@ video {
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+    max-width: 100%;
+    border: 0;
 }
 
 /* Aside styling */
@@ -257,4 +299,15 @@ footer p {
 
 header h1 {
     animation: glow 3s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
 }
